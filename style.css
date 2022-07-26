@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+body {
+  margin: 10rem;
+  text-align: center;
+  display: block;
+  /* position: relative; */
+}
+
+.logo {
+  padding-bottom: 6rem;
+}
+
+.header {
+  font-size: 5rem;
+  color: hsl(0, 0%, 59%);
+  letter-spacing: 1.5px;
+  padding-bottom: 2rem;
+}
+
+.header strong {
+  color: black;
+}
+
+.subheader {
+  font-size: 2rem;
+  padding-bottom: 5rem;
+}
+
+.subscribe-container {
+  display: grid;
+  grid-template-columns: 3fr 1.5fr;
+  gap: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75rem;
+}
+
+#email {
+  border-radius: 50px;
+  height: 7rem;
+  font-size: 2rem;
+  border: 2px solid #d0daf3;
+  padding: 2.5rem;
+}
+
+::placeholder {
+  color: #d0daf3;
+  letter-spacing: 1px;
+}
+
+.btn {
+  border-radius: 50px;
+  height: 7rem;
+  background: rgb(79, 125, 243);
+  box-shadow: 0px 10px 10px 0px rgba(79, 125, 243, 0.2);
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.image {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75rem;
+}
+
+.icon {
+  height: 2rem;
+  width: 2rem;
+  padding-right: 2rem;
+  padding: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+  border: solid 1px #d0daf3;
+  align-items: center;
+  border-radius: 50%;
+  color: rgb(79, 125, 243);
+}
+
+.icon:hover {
+  color: white;
+  background-color: rgb(79, 125, 243);
+}
+
+.attribution {
+  color: hsl(0, 0%, 59%);
+  padding-bottom: 0.5rem;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
