@@ -19,12 +19,13 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
 
     <title>Frontend Mentor | Ping coming soon page</title>
   </head>
   <body>
-    <div class="logo">
-      <svg xmlns="http://www.w3.org/2000/svg" width="86" height="26">
+    <div class="logo-container">
+      <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="86" height="26">
         <g fill="none">
           <path
             fill="#15202A"
@@ -48,6 +49,7 @@
       />
       <button class="btn">Notify Me</button>
     </div>
+    <p class="email-error hidden"><i>Please provide valid email adress</i></p>
     <div class="img-container">
       <img
         class="image"
@@ -63,7 +65,7 @@
    
 
     <footer>
-      <p class="attribution">&copy;Copyright Ping. All rights reserved.</p>
+      <p class="attribution">&copy; Copyright Ping. All rights reserved.</p>
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"

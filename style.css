@@ -8,18 +8,25 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   font-family: "Libre Franklin", sans-serif;
+ 
 }
 
 body {
-  margin: 10rem;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   text-align: center;
-  display: block;
-  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 45vw;
+ align-self: center;
 }
 
-.logo {
-  padding-bottom: 6rem;
+.logo-container {
+  margin-bottom: 6rem;
 }
+
 
 .header {
   font-size: 5rem;
@@ -43,7 +50,7 @@ body {
   gap: 2rem;
   margin-left: auto;
   margin-right: auto;
-  width: 75rem;
+  width: 45vw;
 }
 
 #email {
@@ -54,8 +61,13 @@ body {
   padding: 2.5rem;
 }
 
+#email:focus {
+  outline: none;
+}
+
 ::placeholder {
   color: #d0daf3;
+  background-color: none;
   letter-spacing: 1px;
 }
 
@@ -72,13 +84,26 @@ body {
   letter-spacing: 1px;
 }
 
+.btn:hover {
+  background-color: hsl(223, 80%, 73%);
+}
+
+.email-error{
+  color: red;
+  font-size: 2rem;
+  width: 45vw;
+  text-align: left;
+  margin-top:2rem;
+  margin-left:3rem;
+}
+
 .image {
   margin-top: 10rem;
   margin-bottom: 10rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75rem;
+  width: 45vw;
 }
 
 .icon {
@@ -108,4 +133,8 @@ body {
   text-decoration: none;
   color: black;
   font-weight: 700;
+}
+
+.hidden{
+  opacity:0;
 }
