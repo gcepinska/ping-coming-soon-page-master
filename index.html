@@ -19,6 +19,7 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
     <script defer src="script.js"></script>
 
     <title>Frontend Mentor | Ping coming soon page</title>
@@ -42,14 +43,18 @@
     <p class="subheader">Subscribe and get notified</p>
     <div class="subscribe-container">
       <input
+      class="email"
         type="email"
         id="email"
         name="email"
         placeholder="Your email adress..."
       />
+      <!-- <p class="email-error hidden"><i>Please provide valid email adress</i></p> -->
+      <p class="email-error hidden"><i>Please provide valid email adress</i></p>
+
       <button class="btn">Notify Me</button>
+      
     </div>
-    <p class="email-error hidden"><i>Please provide valid email adress</i></p>
     <div class="img-container">
       <img
         class="image"
